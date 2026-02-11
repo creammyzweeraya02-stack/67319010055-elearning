@@ -1,0 +1,7 @@
+# Netlify Configuration File
+# This ensures that all routes are redirected to index.html so React Router works correctly on page refresh.
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
